@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      http-equiv="Content-Type"
+      content="text/html; charset=UTF-8"
+    />
+
+    <title>MatchMo Register</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="styles.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="..."></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="login-container">
+        <h1>Register</h1>
+        <form
+          action="/api/register"
+          method="post"
+        >
+          <div>
+            <label for="firstname">First Name</label>
+            <input
+              type="text"
+              name="firstname"
+              id="firstname"
+            />
+          </div>
+          <div>
+            <label for="lastname">Last Name</label>
+            <input
+              type="text"
+              name="lastname"
+              id="lastname"
+            />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+            />
+          </div>
+          <div>
+            <label for="confirm_password">Confirm Password</label>
+            <input
+              type="password"
+              name="confirm_password"
+              id="confirm_password"
+            />
+          </div>
+          <div class="button-container">
+            <a href="/login">Login</a>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      //something here
+    </script>
+  </body>
+</html>
